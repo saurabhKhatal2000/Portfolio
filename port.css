@@ -1,0 +1,122 @@
+
+
+
+
+
+#headerid{
+    padding: 0;
+    margin: 0;
+    background-color: fff;
+    height: 150px;
+    width: 100%;
+    color: black;
+    /* text-align: center; */
+     position:fixed;
+     background-color: white;
+}
+
+header ul{
+    display: flex ;
+    float: right;
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+
+
+#logoid{
+     transform: translateX(-850px) translateY(-50px); 
+    margin-top: 20PX;
+    margin-left: 50px;
+   
+    }
+
+   a{
+    text-decoration: none;
+    color: black;
+    margin-right: 50px;
+    font-weight: bold;
+    font-size:large;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   }
+
+   .div1{
+    width: 750px;
+    height: 500px;
+    /* background-color:white; */
+   margin-top: 0px;
+   text-align: left;
+   padding-top: 400px;
+   padding-left: 300px;
+   text-align: justify;
+   position: fixed;
+}
+
+.p-class{
+    padding: 150px;
+    font-size: xx-large;
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   position: relative;
+
+}
+
+body{
+    background-color: cadetblue;
+    width: 50%;
+}
+
+.img2{
+    border: 10px solid white;
+    border-radius: 90%;
+    /* position: fixed; */
+    transform: translateX(1150px) translateY(250px);
+    animation-name: Bounce;
+    animation-duration: 10s;
+    animation-iteration-count:infinite;
+     animation-direction: alternate; 
+    
+}
+
+.btn{
+box-sizing: border-box; 
+height: 50px;
+width: 190px;
+padding: 20px;
+padding-bottom: 40px;
+text-align: center;
+border: 3px solid black;
+border-radius: 50px;
+font-weight: bold;
+font-size: medium;
+background-color: gainsboro;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+position: fixed;
+transform: translateX(600px) translateY(600px);
+}
+
+.btn:hover{
+font-size: large;
+color: black;
+opacity: 40%;
+background-color: transparent ;
+
+}
+
+@keyframes Bounce{
+    0%{   
+        transform: translateY(250px)translateX(1150px);
+    }
+    
+    50%{
+        transform: translateY(400px)translateX(1150px);
+    }
+
+    100%{
+        transform: translateY(250px)translateX(1150px);
+    }
+ 
+     
+}
+
